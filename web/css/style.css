@@ -175,6 +175,10 @@ img { border: 0; max-width: 100%; }
     position: relative;
 	padding: 0% 2%;
 }
+
+.navright {
+	padding: 0 0.5em;
+}
 /* start slider */
 .slider_bg{
 	background: url('../images/test.jpg');
@@ -264,7 +268,7 @@ p.para_1{
 	font-size:4em;
 	font-family: 'Abel', serif;
 	text-align: center;
-	padding: 1em 0em 0em 0em;
+	padding: 1em 1em 0em 1em;
 }
 .heading1
 {
@@ -272,7 +276,7 @@ p.para_1{
 	font-size:2.5em;
 	font-family: 'Abel', serif;
 	text-align: center;
-	padding: 0.5em 0em 0em 0em;
+	padding: 0.5em 1em 0em 1em;
 }
 .main_btm {
 	padding-top: 4em;
@@ -487,8 +491,19 @@ p.para{
 		padding: 2em 0em;
 	}
 	.desc {
-		padding: 0em 5em 2em 5em;
+		padding: 0em 1em 2em 1em;
 	}
+	
+.grid_of_1 {
+	width: 100%;
+	margin: 0%;
+}
+.one-of-grid {
+	padding-bottom: 4em;
+}
+.grid_of_1 h4, .desc h2 {
+	font-size: 1.5em;
+}
 	.footer_nav {
 		padding: 0px 0px;
 	}
@@ -523,7 +538,7 @@ p.para{
 	padding: 2em 0em;
 }
 .desc {
-	padding: 0em 4em 2em 4em;
+	padding: 0em 1em 2em 1em;
 }
 .footer_nav ul li a {
 	padding: 15px 1px;
@@ -542,6 +557,16 @@ p.para{
 	margin: 0 auto;
 	padding:1em 0em;
 	
+}
+.grid_of_1 {
+	width: 100%;
+	margin: 0%;
+}
+.one-of-grid {
+	padding-bottom: 4em;
+}
+.grid_of_1 h4, .desc h2 {
+	font-size: 1.5em;
 }
 .banner-matter {
     padding-top: 5em;
@@ -572,7 +597,8 @@ p.para{
 	padding: 2em 0em;
 }
 .desc {
-	padding: 0em 4em 2em 4em;
+	font-size: 17px;
+	padding: 0em 0.7em 2em 0.7em;
 }
 .footer_nav ul li a {
 	padding: 20px 2px;
@@ -593,6 +619,18 @@ p.para{
 	margin-right: 0px;
 }
 /****/
+.grid_of_1 {
+	font-size:17px;
+	width: 100%;
+	margin: 0%;
+}
+.one-of-grid {
+	padding-bottom: 4em;
+}
+.grid_of_1 h4, .desc h2 {
+	font-size: 1.5em;
+}
+
 .main_btm {
 	padding-top: 2em;
 }
@@ -604,6 +642,16 @@ p.para{
     color: #FFFFFF;
     font-size: 3em;
 	}
+}
+.banner-matter p {
+    top: 190px;
+    color: #FFFFFF;
+    font-size: 1.3em;
+    font-weight: normal;
+    line-height: 29px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
 }
 /*****/
 @media only screen and (max-width: 480px)and (min-width: 320px)
@@ -618,7 +666,8 @@ p.para{
 	padding: 2em 0em;
 }
 .desc {
-	padding: 0em 3em 2em 3em;
+	font-size: 16px;
+	padding: 0em 0.7em 2em 0.7em;
 }
 
 .footer_nav {
@@ -646,6 +695,7 @@ p.para{
 }
 /****/
 .grid_of_1 {
+	font-size: 16px;
 	width: 100%;
 	margin: 0%;
 }
@@ -657,13 +707,13 @@ p.para{
 }
 
 .banner-matter h2 {
-		font-size: 3em;
+		font-size: 2em;
 	}
 
 .banner-matter p {
     top: 190px;
     color: #FFFFFF;
-    font-size: 1.7em;
+    font-size: 1.3em;
     font-weight: normal;
     line-height: 29px;
     text-align: center;
@@ -689,7 +739,8 @@ p.para{
 	padding: 2em 0em;
 }
 .desc {
-	padding: 0em 3em 2em 3em;
+	font-size: 16px;
+	padding: 0em 0.2em 2em 0.2em;
 }
 .footer_nav {
 	float: none;
@@ -712,6 +763,7 @@ p.para{
 }
 /****/
 .grid_of_1 {
+	font-size: 16px;
 	width: 100%;
 	margin: 0%;
 	float: none;
@@ -727,13 +779,18 @@ p.para{
 	font-size: 1.5em;
 }
 /****/
+.banner-matter {
+    margin: 0% auto 0;
+    text-align: center;
+    padding-top: 2.3em;
+}
 	.banner-matter h2 {
-		font-size: 1.4em;
+		font-size: 1.6em;
 	}
 	.banner-matter p {
 		top: 190px;
 		color: #FFFFFF;
-		font-size: 1.6em;
+		font-size: 1em;
 		font-weight: normal;
 		line-height: 22px;
 		text-align: center;
